@@ -11,7 +11,6 @@ import model.Producto;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -26,6 +25,10 @@ import javax.swing.JTable;
 
 public class FrmManteProd extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField txtCódigo;
 	JComboBox<String> cboCategorias;
